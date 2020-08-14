@@ -1,7 +1,12 @@
 {
-    "manifest_version": 2,
-    "name": "Scratch dark theme",
-    "version": "0.1",
-    "description": "Scratchを暗くするための拡張機能"
-
+    "manifest_version" : 2,
+    "name" : "Scratch dark theme",
+    "version" : "0.1",
+    "description" : "Scratchを暗くするための拡張機能",
+    "content_scripts": [
+        {
+            "matches" : ["https://scratch.mit.edu/*"],
+            "css" : ["main.css"]
+        }
+    ]
 }
