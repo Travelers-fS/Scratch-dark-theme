@@ -1,3 +1,46 @@
-.view{
-  background-color: #2C2F33;
+/*全体*/
+#view{
+  background-color: #2C2F33 !important;
 }
+/*ヘッダー*/
+#navigation{
+  background-color: #23272A !important;
+  border-bottom: 1px solid #99AAB5 !important;
+}
+.dropdown{
+  background-color: #23272A !important;
+  border: 1px solid #99AAB5 !important;
+  border-top-width: 0px !important;
+}
+.divider{
+  border-top: 1px solid #000000 !important;
+}
+.message-count show{
+  color: white !important;
+}
+/*フッター*/
+#footer{
+  background-color: #23272A !important;
+  border-top: 1px solid #99AAB5 !important;
+  color: #c0c0c0 !important;
+}
+#donor{
+  background-color: #23272A !important;
+  color: #c0c0c0 !important;
+}
+/*リンク*/
+a span,a,a div,a p{
+  color: #4d97ff !important;
+}
+/*文字*/
+.mod-splash div,.mod-splash p,.mod-splash span,.news-description p{
+  color: #c0c0c0 !important;
+}
+
+.box-header{
+  background-color: #9ec8ff !important;
+}
+.box,.box-content{
+  background-color: #2C2F33 !important;
+}
+
