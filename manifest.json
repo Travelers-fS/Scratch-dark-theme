@@ -5,7 +5,7 @@
     "description" : "Scratchを暗くするための拡張機能",
     "content_scripts": [
         {
-            "matches" : ["https://scratch.mit.edu/*"],
+            "matches" : ["https://scratch.mit.edu/"],
             "css" : ["main.css"]
         }
     ]
